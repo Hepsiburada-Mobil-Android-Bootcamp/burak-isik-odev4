@@ -9,4 +9,11 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="company">Company</string>
+    <string name="slogan">Do Only Your Best</string>
+    <string name="loginToAccount">Login To Your Account</string>
+    <string name="orContinueWith">Or Continue With</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="forgotPassword">Forgot Your Password?</string>
 </resources>
