@@ -13,8 +13,8 @@
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:src="@drawable/ic_baseline_add_location"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,9 +23,9 @@
         android:id="@+id/addressTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#18172B"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:text="@string/addressTitle"
+        android:textColor="#18172B"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@id/location"
         app:layout_constraintTop_toTopOf="@id/location" />
@@ -37,20 +37,22 @@
         android:text="@string/address"
         android:textColor="#6E80B0"
         android:textSize="@dimen/textview_text_size_small"
+        app:layout_constraintBottom_toBottomOf="@id/location"
         app:layout_constraintStart_toStartOf="@id/addressTitle"
-        app:layout_constraintTop_toBottomOf="@id/addressTitle"
-        app:layout_constraintBottom_toBottomOf="@id/location"/>
+        app:layout_constraintTop_toBottomOf="@id/addressTitle" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/foodType"
         android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:layout_height="75dp"
         android:layout_marginTop="@dimen/activity_vertical_margin_huge"
-        app:layout_constraintTop_toBottomOf="@id/address"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/activity_horizontal_margin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="RtlSymmetry" />
+        app:layout_constraintTop_toBottomOf="@id/address"
+        tools:ignore="RtlSymmetry"
+        tools:listitem="@layout/item_food_type" />
 
     <TextView
         android:id="@+id/popularRestaurants"
@@ -77,12 +79,12 @@
         android:id="@+id/restaurants"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:paddingStart="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin_huge"
-        app:layout_constraintTop_toBottomOf="@id/popularRestaurants"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintTop_toBottomOf="@id/popularRestaurants"
         tools:ignore="RtlSymmetry" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -93,6 +95,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

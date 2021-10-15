@@ -23,4 +23,5 @@
     <string name="navSearch">Search</string>
     <string name="navBasket">Basket</string>
     <string name="navAccount">Account</string>
+    <string name="food">food</string>
 </resources>
