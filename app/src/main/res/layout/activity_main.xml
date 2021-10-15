@@ -70,7 +70,7 @@
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
-        android:src="@drawable/ic_baseline_add"
+        android:src="@drawable/ic_settings"
         app:layout_constraintEnd_toEndOf="@id/rvFoodType"
         app:layout_constraintTop_toTopOf="@id/popularRestaurants" />
 

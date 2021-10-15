@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Burakisikodev4">
         <activity
-            android:name=".ui.live.CounterWatcherActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
