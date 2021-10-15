@@ -2,7 +2,5 @@
 
 ## Screens
 
-![Login](ss/login.jpg)
-
-![Home](ss/main.jpg)
-
+<img src="ss/login.jpg" alt="login" width="250"> | 
+<img src="ss/main.jpg" alt="main" width="250"> |
