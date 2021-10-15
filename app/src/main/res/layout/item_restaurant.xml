@@ -11,7 +11,7 @@
         android:id="@+id/icItem"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:src="@drawable/ic_baseline_add_location"
+        android:src="@drawable/ic_restaurant"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,7 +26,6 @@
         app:layout_constraintStart_toEndOf="@id/icItem"
         app:layout_constraintTop_toTopOf="@id/icItem"
         app:layout_constraintBottom_toTopOf="@id/icStar"/>
-
 
     <TextView
         android:id="@+id/discount"
@@ -44,7 +43,7 @@
         android:id="@+id/icStar"
         android:layout_width="18dp"
         android:layout_height="18dp"
-        android:src="@drawable/ic_baseline_add_location"
+        android:src="@drawable/ic_star"
         app:layout_constraintStart_toStartOf="@id/name"
         app:layout_constraintTop_toBottomOf="name"
         app:layout_constraintBottom_toBottomOf="@id/icItem"/>
@@ -75,7 +74,7 @@
         android:id="@+id/delivery"
         android:layout_width="18dp"
         android:layout_height="18dp"
-        android:src="@drawable/ic_baseline_add_location"
+        android:src="@drawable/ic_delivery_time"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         app:layout_constraintStart_toEndOf="@id/type"
         app:layout_constraintTop_toTopOf="@id/icStar"
