@@ -2,7 +2,7 @@
 
 ## Screens
 
-![Login](login.jpg)
+![Login](ss/login.jpg)
 
-![Home](main.jpg)
+![Home](ss/main.jpg)
 
