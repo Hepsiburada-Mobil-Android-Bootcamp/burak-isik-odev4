@@ -16,4 +16,11 @@
     <string name="facebook">Facebook</string>
     <string name="google">Google</string>
     <string name="forgotPassword">Forgot Your Password?</string>
+    <string name="addressTitle">Home</string>
+    <string name="address">Etlik ST Ankara, Turkey</string>
+    <string name="popularRestaurants">Popular Restaurants</string>
+    <string name="navHome">Home</string>
+    <string name="navSearch">Search</string>
+    <string name="navBasket">Basket</string>
+    <string name="navAccount">Account</string>
 </resources>

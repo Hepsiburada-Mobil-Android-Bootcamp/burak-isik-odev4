@@ -6,5 +6,7 @@
     <dimen name="activity_vertical_margin_huge">32dp</dimen>
 
     <dimen name="textview_text_size">16sp</dimen>
+    <dimen name="textview_text_size_small">12sp</dimen>
+
 
 </resources>
