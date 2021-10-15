@@ -1,4 +1,4 @@
-package com.burakisik.odev1
+package com.burakisik.odev4
 
 import org.junit.Test
 

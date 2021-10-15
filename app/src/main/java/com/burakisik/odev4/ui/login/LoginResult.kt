@@ -1,4 +1,4 @@
-package com.burakisik.odev1.ui.login
+package com.burakisik.odev4.ui.login
 
 /**
  * Authentication result : success (user details) or error message.

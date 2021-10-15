@@ -1,4 +1,4 @@
-package com.burakisik.odev1.ui.login
+package com.burakisik.odev4.ui.login
 
 /**
  * User details post authentication that is exposed to the UI

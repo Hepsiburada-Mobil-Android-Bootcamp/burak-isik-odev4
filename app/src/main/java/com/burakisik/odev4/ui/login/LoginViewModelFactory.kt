@@ -1,9 +1,9 @@
-package com.burakisik.odev1.ui.login
+package com.burakisik.odev4.ui.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.burakisik.odev1.data.LoginDataSource
-import com.burakisik.odev1.data.LoginRepository
+import com.burakisik.odev4.data.LoginDataSource
+import com.burakisik.odev4.data.LoginRepository
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

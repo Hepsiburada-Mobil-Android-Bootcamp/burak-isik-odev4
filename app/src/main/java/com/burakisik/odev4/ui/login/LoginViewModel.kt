@@ -1,13 +1,13 @@
-package com.burakisik.odev1.ui.login
+package com.burakisik.odev4.ui.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import android.util.Patterns
-import com.burakisik.odev1.data.LoginRepository
-import com.burakisik.odev1.data.Result
+import com.burakisik.odev4.data.LoginRepository
+import com.burakisik.odev4.data.Result
 
-import com.burakisik.odev1.R
+import com.burakisik.odev4.R
 
 class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel() {
 

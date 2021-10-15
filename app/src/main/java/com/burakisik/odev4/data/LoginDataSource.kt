@@ -1,6 +1,6 @@
-package com.burakisik.odev1.data
+package com.burakisik.odev4.data
 
-import com.burakisik.odev1.data.model.LoggedInUser
+import com.burakisik.odev4.data.model.LoggedInUser
 import java.io.IOException
 
 /**

@@ -1,4 +1,4 @@
-package com.burakisik.odev1.ui.login
+package com.burakisik.odev4.ui.login
 
 import android.app.Activity
 import androidx.lifecycle.Observer
@@ -12,9 +12,9 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.Toast
-import com.burakisik.odev1.databinding.ActivityLoginBinding
+import com.burakisik.odev4.databinding.ActivityLoginBinding
 
-import com.burakisik.odev1.R
+import com.burakisik.odev4.R
 
 class LoginActivity : AppCompatActivity() {
 

@@ -1,6 +1,6 @@
-package com.burakisik.odev1.data
+package com.burakisik.odev4.data
 
-import com.burakisik.odev1.data.model.LoggedInUser
+import com.burakisik.odev4.data.model.LoggedInUser
 
 /**
  * Class that requests authentication and user information from the remote data source and

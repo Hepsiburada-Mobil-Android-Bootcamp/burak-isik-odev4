@@ -1,4 +1,4 @@
-package com.burakisik.odev1.data
+package com.burakisik.odev4.data
 
 /**
  * A generic class that holds a value with its loading status.
