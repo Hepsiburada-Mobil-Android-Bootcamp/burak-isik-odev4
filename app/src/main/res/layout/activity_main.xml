@@ -5,8 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".ui.login.LoginActivity">
+    android:paddingTop="@dimen/activity_vertical_margin">
 
     <ImageView
         android:id="@+id/location"
@@ -42,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@id/addressTitle" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/foodType"
+        android:id="@+id/rvFoodType"
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginTop="@dimen/activity_vertical_margin_huge"
@@ -63,8 +62,8 @@
         android:text="@string/popularRestaurants"
         android:textColor="#18172B"
         android:textSize="@dimen/textview_text_size"
-        app:layout_constraintStart_toStartOf="@id/foodType"
-        app:layout_constraintTop_toBottomOf="@id/foodType" />
+        app:layout_constraintStart_toStartOf="@id/rvFoodType"
+        app:layout_constraintTop_toBottomOf="@id/rvFoodType" />
 
     <ImageView
         android:id="@+id/settings"
@@ -72,7 +71,7 @@
         android:layout_height="32dp"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:src="@drawable/ic_baseline_add"
-        app:layout_constraintEnd_toEndOf="@id/foodType"
+        app:layout_constraintEnd_toEndOf="@id/rvFoodType"
         app:layout_constraintTop_toTopOf="@id/popularRestaurants" />
 
     <androidx.recyclerview.widget.RecyclerView

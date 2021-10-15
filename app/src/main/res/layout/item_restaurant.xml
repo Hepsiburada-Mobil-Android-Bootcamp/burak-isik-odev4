@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".ui.login.LoginActivity">
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/icItem"
+        android:padding="8dp"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:src="@drawable/ic_restaurant"
@@ -45,7 +44,7 @@
         android:layout_height="18dp"
         android:src="@drawable/ic_star"
         app:layout_constraintStart_toStartOf="@id/name"
-        app:layout_constraintTop_toBottomOf="name"
+        app:layout_constraintTop_toBottomOf="@id/name"
         app:layout_constraintBottom_toBottomOf="@id/icItem"/>
 
     <TextView
@@ -77,8 +76,7 @@
         android:src="@drawable/ic_delivery_time"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         app:layout_constraintStart_toEndOf="@id/type"
-        app:layout_constraintTop_toTopOf="@id/icStar"
-        app:layout_constraintBottom_toBottomOf="@id/icItem"/>
+        app:layout_constraintTop_toTopOf="@id/icStar" />
 
     <TextView
         android:id="@+id/deliveryTime"
