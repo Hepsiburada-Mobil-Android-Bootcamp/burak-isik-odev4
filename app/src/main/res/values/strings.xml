@@ -24,4 +24,9 @@
     <string name="navBasket">Basket</string>
     <string name="navAccount">Account</string>
     <string name="food">food</string>
+    <string name="restaurantName">Kebabcı</string>
+    <string name="type">Türkiye</string>
+    <string name="deliveryTime">30 min</string>
+    <string name="star">5.0</string>
+    <string name="discountRate">50% OFF</string>
 </resources>

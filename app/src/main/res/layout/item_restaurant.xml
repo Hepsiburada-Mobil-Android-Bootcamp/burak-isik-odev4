@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.login.LoginActivity">
 
+    <ImageView
+        android:id="@+id/icItem"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_baseline_add_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#18172B"
+        android:text="@string/restaurantName"
+        android:textSize="@dimen/textview_text_size"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        app:layout_constraintStart_toEndOf="@id/icItem"
+        app:layout_constraintTop_toTopOf="@id/icItem"
+        app:layout_constraintBottom_toTopOf="@id/icStar"/>
+
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6D61F2"
+        android:text="@string/discountRate"
+        android:textSize="@dimen/textview_text_size_small"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/icItem"
+        app:layout_constraintBottom_toTopOf="@id/icStar"/>
+
+    <ImageView
+        android:id="@+id/icStar"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_baseline_add_location"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="name"
+        app:layout_constraintBottom_toBottomOf="@id/icItem"/>
+
+    <TextView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#18172B"
+        android:text="@string/star"
+        android:textSize="@dimen/textview_text_size_small"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        app:layout_constraintStart_toEndOf="@id/icStar"
+        app:layout_constraintTop_toTopOf="@id/icStar" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6E80B0"
+        android:text="@string/type"
+        android:textSize="@dimen/textview_text_size_small"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        app:layout_constraintStart_toEndOf="@id/star"
+        app:layout_constraintTop_toTopOf="@id/icStar" />
+
+    <ImageView
+        android:id="@+id/delivery"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_baseline_add_location"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        app:layout_constraintStart_toEndOf="@id/type"
+        app:layout_constraintTop_toTopOf="@id/icStar"
+        app:layout_constraintBottom_toBottomOf="@id/icItem"/>
+
+    <TextView
+        android:id="@+id/deliveryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6E80B0"
+        android:text="@string/deliveryTime"
+        android:textSize="@dimen/textview_text_size_small"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        app:layout_constraintStart_toEndOf="@id/delivery"
+        app:layout_constraintTop_toTopOf="@id/icStar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
